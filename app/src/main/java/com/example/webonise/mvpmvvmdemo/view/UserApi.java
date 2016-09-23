@@ -8,7 +8,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
- * User Api to defing method to get user detail list.
+ *   User Api to defing method to get user detail list.
  */
 public interface UserApi {
 
