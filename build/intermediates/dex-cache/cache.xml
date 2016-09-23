@@ -1,2 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_b02f9baab5c3cc42cdb8f3e88ea5f01d22b78ca6.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_a942d6e471f4eae669a54392c4b659e276eca4f4.jar" />
+    </item>
+    <item
+        jar="/home/webonise/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_4f2fd69ef0bd1aa44c3528360852ef49e2c4ed0b.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3172255f79f393abd6eb3a974e63c935ef05e64d.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_6a272d57ed0fe498263b01d09d5e4a5e7d1fb181.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1c6371d03efc6cbf44a5b6b2b59ef366196ca075">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_fc480fa5d06754a86bdba6469057a0ea3afa2316.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_208349a837809d9ff5dc8c242889f5e26bf49161.jar" />
+    </item>
+    <item
+        jar="/home/webonise/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/okio-1.6.0_dedc04db4d9fe92b512fc37990c9e74b05adbcb4.jar" />
+    </item>
+    <item
+        jar="/home/webonise/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_5ffb75fe2cb3aae335f8d2f2f6e4a40d8be194fe.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_ee18db667dbb182de7171fd49447f0ace285672f.jar" />
+    </item>
+    <item
+        jar="/home/webonise/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_7d5b0736cc3f8884f06d780186568c4e9164b402.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_c4599c724c8ecf18ec4c3f88371c3dfcc0eb6ae9.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_90107e359e30f3c114a174751c36ed9167d1ac0a.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_5c25fbeb35d18891d5b760d55e39e673422476e4.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_078d895d83d408a1c0c40af56bf4564f3e62bb3c.jar" />
+    </item>
+    <item
+        jar="/home/webonise/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_3fd465f66fe12d87d7612423d98e633df3fe7b62.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b27348d49342ef7b847d4deaf76c380f798f4524">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/instant-run_003f10c76ed9a9df2bd78325414e49fea7d128af.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_bdddede449acaac9a814e3e326f29a1d80a7b87b.jar" />
+    </item>
+    <item
+        jar="/home/webonise/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/gson-2.6.1_1870f3d162f8cab3eaee341ece48ec437414845d.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ebb8ad1b53be255b2cdc2abad59e77ea19b66816.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_a8dfb8368b28e65064ce668b58f4974ba25acf61.jar" />
+    </item>
+    <item
+        jar="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/webonise/AndroidStudioProjects/MVPMVVMDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_896cf1a0f6cfe939d5d11539f011a46d4dab39db.jar" />
+    </item>
+
+</items>
