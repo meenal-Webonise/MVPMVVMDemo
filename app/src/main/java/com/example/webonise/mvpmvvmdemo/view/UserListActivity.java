@@ -18,6 +18,12 @@ import com.example.webonise.mvpmvvmdemo.presenter.UserPresenter;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+*
+*   Activity class to show user data recieved from server.
+*
+* */
 public class UserListActivity extends AppCompatActivity implements UserView {
 
     private ListView listViewUser;
