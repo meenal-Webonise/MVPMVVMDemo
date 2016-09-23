@@ -1,7 +1,7 @@
 package com.example.webonise.mvpmvvmdemo.model;
 
 /**
- * Created by webonise on 22/9/16.
+ * User Model class to get set name ,email and body
  */
 public class UserModel {
 
