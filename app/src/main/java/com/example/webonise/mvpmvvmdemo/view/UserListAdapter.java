@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by webonise on 22/9/16.
+ * Adapter class to show list.
  */
 public class UserListAdapter extends BaseAdapter {
 
