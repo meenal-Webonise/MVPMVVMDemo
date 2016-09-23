@@ -6,7 +6,7 @@ import android.net.NetworkInfo;
 import android.util.Log;
 
 /**
- * Created by webonise on 22/9/16.
+ * Utils class define for common operations to be used in app.
  */
 public class Utility {
 
@@ -21,6 +21,8 @@ public class Utility {
         }
         return mInstance;
     }
+
+    /*  method to check internet connectivity */
     public boolean isOnline(Context mContext) {
         try {
             connectivityManager = (ConnectivityManager) mContext
