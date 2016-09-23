@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVPMVVMDemo</string>
+    <string name="text_user_data"><u>User Data</u></string>
+    <string name="fetchData">Fetching Data..</string>
+    <string name="error_msg">No User Data Found</string>
+    <string name="textLabelName">Name : </string>
+    <string name="textLabelBody">Body : </string>
+    <string name="textLabelEmail">Email : </string>
+    <string name="no_network">\"Please check your internet settings.</string>
+    <string name="text_add_more">Load More</string>
+</resources>

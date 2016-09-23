@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/view_padding">
+
+
+    <TextView
+        android:id="@+id/textViewLabelName"
+        style="@style/LabelTextView_Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/textLabelName" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        style="@style/MyTextViewStyle_Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignBaseline="@+id/textViewLabelName"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_toRightOf="@+id/textViewLabelName"
+        android:inputType="textCapWords"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/textViewLabelEmail"
+        style="@style/LabelTextView_Style"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewLabelName"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:text="@string/textLabelEmail" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        style="@style/MyTextViewStyle_Small"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_toRightOf="@+id/textViewLabelEmail"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewLabelBody"
+        style="@style/LabelTextView_Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewLabelEmail"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:text="@string/textLabelBody" />
+
+    <TextView
+        android:id="@+id/textViewBody"
+        style="@style/MyTextViewStyle_Small"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_toRightOf="@+id/textViewLabelBody"
+        android:ellipsize="end"
+        android:maxLines="3" />
+
+
+</RelativeLayout>
