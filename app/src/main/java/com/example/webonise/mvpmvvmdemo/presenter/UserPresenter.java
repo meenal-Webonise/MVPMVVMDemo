@@ -26,7 +26,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 /**
- * Created by webonise on 22/9/16.
+ *  User Presenter class to read user Data and set it on List
  */
 public class UserPresenter {
     //Root URL of our web service
