@@ -5,7 +5,7 @@ import com.example.webonise.mvpmvvmdemo.model.UserModel;
 import java.util.List;
 
 /**
- * Created by webonise on 22/9/16.
+ * User View Interface.
  */
 public interface UserView {
     void setDataOnList(List<UserModel> userModels);
