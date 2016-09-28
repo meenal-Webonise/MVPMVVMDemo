@@ -3,7 +3,9 @@ package com.example.webonise.mvpmvvmdemo.view;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.util.Log;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * Utils class define for common operations to be used in app.
@@ -11,21 +13,27 @@ import android.util.Log;
 public class Utility {
 
     private static Utility mInstance = null;
-    private ConnectivityManager connectivityManager;
     private boolean connected;
+    private Context mContext;
 
-    public static Utility getInstance() {
-
+    public static Utility getInstance(Context mContext) {
         if (mInstance == null) {
-            mInstance = new Utility();
+            mInstance = new Utility(mContext);
         }
         return mInstance;
     }
 
-    /*  method to check internet connectivity */
-    public boolean isOnline(Context mContext) {
+    private Utility(Context mContext) {
+        this.mContext = mContext;
+    }
+
+    /**
+     *  method to check internet connectivity
+     * @return true or false
+     */
+    public boolean isOnline() {
         try {
-            connectivityManager = (ConnectivityManager) mContext
+            ConnectivityManager connectivityManager = (ConnectivityManager) mContext
                     .getSystemService(Context.CONNECTIVITY_SERVICE);
 
             NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
@@ -35,10 +43,31 @@ public class Utility {
 
 
         } catch (Exception e) {
-            System.out.println("CheckConnectivity Exception: " + e.getMessage());
-            Log.v("connectivity", e.toString());
+           e.printStackTrace();
         }
         return connected;
+    }
+
+    /**
+     * read model data from file saved in assets if offline
+     * @param inFile file name from which data to be loaded
+     * @return data type of the value to be returned as read from file
+     */
+    public String loadData(String inFile) {
+        String tContents = "";
+        try {
+            InputStream stream = mContext.getAssets().open(inFile);
+            int size = stream.available();
+            byte[] buffer = new byte[size];
+            stream.read(buffer);
+            stream.close();
+            tContents = new String(buffer);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return tContents;
+
     }
 
 }

@@ -9,8 +9,6 @@ import java.util.List;
  */
 public interface UserView {
     void setDataOnList(List<UserModel> userModels);
-
     void showProgressDialog();
-
     void displayMessage(String string);
 }

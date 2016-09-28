@@ -16,5 +16,5 @@ public interface UserApi {
        And our method that will return us the list of users
     */
     @GET("/comments")
-    public Call<List<UserModel>> getUser();
+    Call<List<UserModel>> getUser();
 }

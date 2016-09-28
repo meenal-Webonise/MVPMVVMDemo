@@ -1,12 +1,18 @@
 package com.example.webonise.mvpmvvmdemo.model;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * User Model class to get set name ,email and body
  */
 public class UserModel {
 
-    String name, email, body;
-
+    @SerializedName("name")
+    private String name;
+    @SerializedName("email")
+    private String email;
+    @SerializedName("body")
+    private String body;
 
     public String getName() {
         return name;
@@ -21,7 +27,6 @@ public class UserModel {
     }
 
     public void setEmail(String email) {
-
         this.email = email;
     }
 
@@ -30,6 +35,12 @@ public class UserModel {
     }
 
     public void setBody(String body) {
+        this.body = body;
+    }
+
+    public UserModel(String name, String email, String body) {
+        this.name = name;
+        this.email = email;
         this.body = body;
     }
 }
